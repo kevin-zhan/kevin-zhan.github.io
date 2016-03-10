@@ -1,12 +1,12 @@
 # Site settings
 title: KZ的博客
 header-img: "img/green.jpg"
-tagline: "cn"  
-description: "分享吾之所思，吾之所得"  
-baseurl: ""  
+tagline: "cn"
+description: "分享吾之所思，吾之所得"
+baseurl: ""
 
 # About/contact
-owner: 
+owner:
   name: " Kevin Zhan"
   email: kevinzhan0417@outlook.com
   bio: "记录下来的才是永久记住的"
@@ -15,16 +15,16 @@ owner:
 gavatar: http://dreamofbook.qiniudn.com/Az..png
 favicon: img/favicon.png
 
-douban_username:  
-twitter_username: 
+douban_username:
+twitter_username:
 github_username: kevin-zhan
-facebook_username: 
-weibo_username: 
-zhihu_username: 
+facebook_username:
+weibo_username:
+zhihu_username:
 
-# Build settings  
-# use Github Flavored Markdown !important  
-# document: http://jekyllrb.com/docs/configuration/#kramdown  
+# Build settings
+# use Github Flavored Markdown !important
+# document: http://jekyllrb.com/docs/configuration/#kramdown
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
@@ -37,7 +37,7 @@ timezone: Asia/Shanghai
 # Defaults for posts
 defaults:
   -
-    scope: 
+    scope:
       path: ""
       type: "posts"
     values:
@@ -45,16 +45,16 @@ defaults:
       author: "KZ"
       header-img: "img/green.jpg" # We don't want posts without a header image, that whould mean white on white
 
-# Comments 
+# Comments
 comments :
   provider : duoshuo
   duoshuo :
-    short_name : 
+    short_name : zhanymx
   disqus :
-      short_name : 
+      short_name :
 
 # Analytics and webmaster tools stuff goes here
-google_analytics: 
+google_analytics:
 google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:
